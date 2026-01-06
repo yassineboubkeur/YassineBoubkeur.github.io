@@ -26,6 +26,8 @@ menu_item.forEach((item) => {
 
 
 document.addEventListener("DOMContentLoaded", function () {
+	// ✅ copyright auto year
+  document.getElementById("copyright-year").textContent = new Date().getFullYear();
 	const projects = [
 	  {
 		title: "Student Management System",
@@ -70,11 +72,43 @@ document.addEventListener("DOMContentLoaded", function () {
 	  },
 	  {
 		title: "Complaints Management",
-		tech: "JavaScript / Html / Css / Bootstrap / LaravelSpatie / Myql",
+		tech: "JavaScript / Html / Css / Bootstrap / LaravelSpatie / MySql",
 		description: "This application allows users to submit and track the status of their claims through an intuitive web interface. It uses a Laravel backend to handle submissions, with authentication and user management via the <strong>Spatie</strong> package. Claim data is stored in a MySQL database, and the user interface is built with HTML, CSS, and Bootstrap, adding dynamic features with JavaScript.",
 		imgSrc: "\\img\\Gestion_reclmation.png",
 		videoSrc: "https://github.com/mrAymanLasfar/gestion-reclamation02-/tree/Yassine_Boubkeur_1",  // Hna رابط الفيديو
 		altText: "Project 7"
+	  },
+	  {
+		title: "Absence management",
+		tech: "Springboot / Java / MySQL / Reactjs",
+		description: "This web application is designed to manage student absences efficiently through a modern and user-friendly interface. It allows administrators and teachers to record absences, manage permissions and justifications, and track student attendance in real time. The system also provides detailed reports and statistics to help monitor attendance trends. Built with a React.js frontend for a smooth user experience, a Spring Boot backend for robust business logic, and a MySQL database for secure data storage, this application ensures reliability, performance, and scalability.",
+		imgSrc: "\\img\\Gestion_absences.png",
+		videoSrc: "https://github.com/yassineboubkeur/projet_gestion_absences",  // Hna رابط الفيديو
+		altText: "Project 8"
+	  },
+	  {
+		title: "Real estate sale",
+		tech: "Nodejs / Reactjs / Talwind Css / MySQl",
+		description: "This real estate web application allows users to publish, search, and explore properties available for sale or rent through an intuitive and modern interface. It features secure user authentication, advanced search and filtering options, and detailed property listings with images and descriptions. The application integrates Google Maps to display property locations and enhance the browsing experience. Built with a React.js frontend styled using Tailwind CSS, and a Node.js backend to handle business logic and data management, this platform delivers a fast, responsive, and scalable real estate solution.",
+		imgSrc: "\\img\\Real_estate_sale.png",
+		videoSrc: "https://github.com/yassineboubkeur/Real_estate_sale",  // Hna رابط الفيديو
+		altText: "Project 9"
+	  },
+	  {
+		title: "Event management",
+		tech: "Laravel / Reactjs / Talwind Css / MySQl",
+		description: "This web application is designed for planning, organizing, and managing events efficiently. It allows organizers to create and manage events, handle participant registrations, and track attendance seamlessly. Participants can browse event details, register online, and receive confirmation notifications. Developed using Laravel for the backend and styled with Tailwind CSS for a modern and responsive user interface, this application provides a reliable and user-friendly event management solution.",
+		imgSrc: "\\img\\event_management.png",
+		videoSrc: "https://github.com/yassineboubkeur/gestion_evenments",  // Hna رابط الفيديو
+		altText: "Project 10"
+	  },
+	  {
+		title: "Event management",
+		tech: "Laravel / Reactjs / Talwind Css / MySQl",
+		description: "This web application is designed for planning, organizing, and managing events efficiently. It allows organizers to create and manage events, handle participant registrations, and track attendance seamlessly. Participants can browse event details, register online, and receive confirmation notifications. Developed using Laravel for the backend and styled with Tailwind CSS for a modern and responsive user interface, this application provides a reliable and user-friendly event management solution.",
+		imgSrc: "\\img\\event_management.png",
+		videoSrc: "https://github.com/yassineboubkeur/gestion_evenments",  // Hna رابط الفيديو
+		altText: "Project 10"
 	  }
 	];
   
