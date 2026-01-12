@@ -101,14 +101,6 @@ document.addEventListener("DOMContentLoaded", function () {
 		imgSrc: "\\img\\event_management.png",
 		videoSrc: "https://github.com/yassineboubkeur/gestion_evenments",  // Hna رابط الفيديو
 		altText: "Project 10"
-	  },
-	  {
-		title: "Event management",
-		tech: "Laravel / Reactjs / Talwind Css / MySQl",
-		description: "This web application is designed for planning, organizing, and managing events efficiently. It allows organizers to create and manage events, handle participant registrations, and track attendance seamlessly. Participants can browse event details, register online, and receive confirmation notifications. Developed using Laravel for the backend and styled with Tailwind CSS for a modern and responsive user interface, this application provides a reliable and user-friendly event management solution.",
-		imgSrc: "\\img\\event_management.png",
-		videoSrc: "https://github.com/yassineboubkeur/gestion_evenments",  // Hna رابط الفيديو
-		altText: "Project 10"
 	  }
 	];
   
@@ -220,3 +212,4 @@ document.addEventListener("DOMContentLoaded", function () {
 	}
   });
   
+
