@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "A dynamic anime streaming website that offers a smooth and engaging experience for anime lovers. Built with responsive design principles using Bootstrap, interactive features with jQuery, and JavaScript for a seamless user experience. Users can browse the latest anime, watch trailers, and keep track of their favorite shows.",
       imgSrc: "\\img\\animeProjet.png",
       videoSrc:
-        "https://drive.google.com/file/d/1HHqroHP9AwzPzKqMeIDIYt50g6xMBLOk/view?usp=sharing", // Hna رابط الفيديو
+        "https://drive.google.com/file/d/1HHqroHP9AwzPzKqMeIDIYt50g6xMBLOk/view?usp=sharing", 
       altText: "Project 3",
     },
     {
@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "A responsive e-commerce platform for smartphones, designed with an intuitive interface and modern design. The website features a product catalog, shopping cart, and smooth transitions for an enhanced user experience. Built using Bootstrap for responsive layouts, and jQuery/JavaScript for interactivity.",
       imgSrc: "\\img\\smatphoneProjet.png",
       videoSrc:
-        "https://drive.google.com/file/d/1Yb29rbgcon0BusHzuV-aNYbwCypYVyy3/view?usp=sharing", // Hna رابط الفيديو
+        "https://drive.google.com/file/d/1Yb29rbgcon0BusHzuV-aNYbwCypYVyy3/view?usp=sharing", 
       altText: "Project 4",
     },
     {
@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "Welcome to PC Store, your go-to place for purchasing the best and latest desktop PCs. We offer a wide range of PCs for gaming, work, and everyday use, with competitive prices. Our system is powered by a robust MySQL database that manages product listings, inventory, and customer orders. Built using PHP, this site is fast, secure, and fully functional to help you shop with ease. Whether you’re a gamer, a developer, or just looking for a reliable PC, PC Store has something for everyone.",
       imgSrc: "\\img\\pcProjet.png",
       videoSrc:
-        "https://drive.google.com/file/d/1nQ4T_1htRkvg8e5jdW_WUGCMVXQITZx4/view?usp=sharing", // Hna رابط الفيديو
+        "https://drive.google.com/file/d/1nQ4T_1htRkvg8e5jdW_WUGCMVXQITZx4/view?usp=sharing", 
       altText: "Project 5",
     },
     {
@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "Discover a wide selection of books across different genres. Whether you're looking for the latest best-sellers, timeless classics, or educational books, we've got it all. Our website allows you to easily browse books, make purchases, and manage your orders. Built using Node.js, MongoDB, and jQuery, this website offers a fast and secure shopping experience.",
       imgSrc: "./img/Book.png",
       videoSrc:
-        "https://drive.google.com/file/d/1SWUrgdrlKTYZKLivH9cvgJk0Hh9EPSIh/view?usp=sharing", // Hna رابط الفيديو
+        "https://drive.google.com/file/d/1SWUrgdrlKTYZKLivH9cvgJk0Hh9EPSIh/view?usp=sharing", 
       altText: "Project 6",
     },
     {
@@ -91,7 +91,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "This application allows users to submit and track the status of their claims through an intuitive web interface. It uses a Laravel backend to handle submissions, with authentication and user management via the <strong>Spatie</strong> package. Claim data is stored in a MySQL database, and the user interface is built with HTML, CSS, and Bootstrap, adding dynamic features with JavaScript.",
       imgSrc: "\\img\\Gestion_reclmation.png",
       videoSrc:
-        "https://github.com/mrAymanLasfar/gestion-reclamation02-/tree/Yassine_Boubkeur_1", // Hna رابط الفيديو
+        "https://github.com/mrAymanLasfar/gestion-reclamation02-/tree/Yassine_Boubkeur_1", 
       altText: "Project 7",
     },
     {
@@ -100,7 +100,7 @@ document.addEventListener("DOMContentLoaded", function () {
       description:
         "This web application is designed to manage student absences efficiently through a modern and user-friendly interface. It allows administrators and teachers to record absences, manage permissions and justifications, and track student attendance in real time. The system also provides detailed reports and statistics to help monitor attendance trends. Built with a React.js frontend for a smooth user experience, a Spring Boot backend for robust business logic, and a MySQL database for secure data storage, this application ensures reliability, performance, and scalability.",
       imgSrc: "\\img\\Gestion_absences.png",
-      videoSrc: "https://github.com/yassineboubkeur/projet_gestion_absences", // Hna رابط الفيديو
+      videoSrc: "https://github.com/yassineboubkeur/projet_gestion_absences", 
       altText: "Project 8",
     },
     {
@@ -109,7 +109,7 @@ document.addEventListener("DOMContentLoaded", function () {
       description:
         "This real estate web application allows users to publish, search, and explore properties available for sale or rent through an intuitive and modern interface. It features secure user authentication, advanced search and filtering options, and detailed property listings with images and descriptions. The application integrates Google Maps to display property locations and enhance the browsing experience. Built with a React.js frontend styled using Tailwind CSS, and a Node.js backend to handle business logic and data management, this platform delivers a fast, responsive, and scalable real estate solution.",
       imgSrc: "\\img\\Real_estate_sale.png",
-      videoSrc: "https://github.com/yassineboubkeur/Real_estate_sale", // Hna رابط الفيديو
+      videoSrc: "https://github.com/yassineboubkeur/Real_estate_sale", 
       altText: "Project 9",
     },
     {
@@ -118,7 +118,7 @@ document.addEventListener("DOMContentLoaded", function () {
       description:
         "This web application is designed for planning, organizing, and managing events efficiently. It allows organizers to create and manage events, handle participant registrations, and track attendance seamlessly. Participants can browse event details, register online, and receive confirmation notifications. Developed using Laravel for the backend and styled with Tailwind CSS for a modern and responsive user interface, this application provides a reliable and user-friendly event management solution.",
       imgSrc: "\\img\\event_management.png",
-      videoSrc: "https://github.com/yassineboubkeur/gestion_evenments", // Hna رابط الفيديو
+      videoSrc: "https://github.com/yassineboubkeur/gestion_evenments", 
       altText: "Project 10",
     },
   ];
@@ -231,3 +231,4 @@ themeToggle.addEventListener("click", () => {
     themeToggle.textContent = "Dark Mode";
   }
 });
+
