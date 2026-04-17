@@ -789,22 +789,22 @@ p {
 	@media (hover: hover) {
 		.project-video .video-link {
 			opacity: 0;
-			/* يخفي الزر إلا كان hover */
+			
 		}
 
 		.project-video a:hover .video-link {
 			opacity: 1;
-			/* يبان عند hover */
+		
 		}
 	}
 
-	/* Mobile: link باين فوق الصورة دائما */
+	
 	@media (hover: none) {
 		.project-video .video-link {
 			opacity: 1;
-			/* يبان دائما */
+		
 			pointer-events: none;
-			/* باش الضغط يروح للـ link الرئيسي */
+			
 		}
 		  .project-video a {
         display: block;
