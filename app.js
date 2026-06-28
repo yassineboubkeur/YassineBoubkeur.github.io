@@ -35,6 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const projects = [
     {
       title: "Student Management System",
+      category: "fullstack",
       tech: "ASP.NET Framework / SQL Server",
       description:
         "This project is a comprehensive Student Management System designed for educational institutions. Built using the ASP.NET framework and SQL Server as the database, the system enables schools and colleges to efficiently manage student data.",
@@ -46,6 +47,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Add other project objects here in the same format
     {
       title: "Anime Streaming Website",
+      category: "fullstack",
       tech: "HTML / CSS / Bootstrap / jQuery / JavaScript",
       description:
         "A dynamic anime streaming website that offers a smooth and engaging experience for anime lovers. Built with responsive design principles using Bootstrap, interactive features with jQuery, and JavaScript for a seamless user experience. Users can browse the latest anime, watch trailers, and keep track of their favorite shows.",
@@ -56,6 +58,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       title: "E-commerce smartphones Website",
+      category: "fullstack",
       tech: "HTML / CSS / Bootstrap / jQuery / JavaScript",
       description:
         "A responsive e-commerce platform for smartphones, designed with an intuitive interface and modern design. The website features a product catalog, shopping cart, and smooth transitions for an enhanced user experience. Built using Bootstrap for responsive layouts, and jQuery/JavaScript for interactivity.",
@@ -66,6 +69,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       title: "Website pc store",
+      category: "fullstack",
       tech: "Html / Css / Bootstrap / MySQL / PHP",
       description:
         "Welcome to PC Store, your go-to place for purchasing the best and latest desktop PCs. We offer a wide range of PCs for gaming, work, and everyday use, with competitive prices. Our system is powered by a robust MySQL database that manages product listings, inventory, and customer orders. Built using PHP, this site is fast, secure, and fully functional to help you shop with ease. Whether you’re a gamer, a developer, or just looking for a reliable PC, PC Store has something for everyone.",
@@ -76,6 +80,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       title: "Book Store",
+      category: "fullstack",
       tech: "Html / Css / jQuery / Nodejs / Mongodb:",
       description:
         "Discover a wide selection of books across different genres. Whether you're looking for the latest best-sellers, timeless classics, or educational books, we've got it all. Our website allows you to easily browse books, make purchases, and manage your orders. Built using Node.js, MongoDB, and jQuery, this website offers a fast and secure shopping experience.",
@@ -86,6 +91,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       title: "Complaints Management",
+      category: "fullstack",
       tech: "JavaScript / Html / Css / Bootstrap / LaravelSpatie / MySql",
       description:
         "This application allows users to submit and track the status of their claims through an intuitive web interface. It uses a Laravel backend to handle submissions, with authentication and user management via the <strong>Spatie</strong> package. Claim data is stored in a MySQL database, and the user interface is built with HTML, CSS, and Bootstrap, adding dynamic features with JavaScript.",
@@ -96,6 +102,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       title: "Absence management",
+      category: "fullstack",
       tech: "Springboot / Java / MySQL / Reactjs",
       description:
         "This web application is designed to manage student absences efficiently through a modern and user-friendly interface. It allows administrators and teachers to record absences, manage permissions and justifications, and track student attendance in real time. The system also provides detailed reports and statistics to help monitor attendance trends. Built with a React.js frontend for a smooth user experience, a Spring Boot backend for robust business logic, and a MySQL database for secure data storage, this application ensures reliability, performance, and scalability.",
@@ -105,6 +112,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       title: "Real estate sale",
+      category: "fullstack",
       tech: "Nodejs / Reactjs / Talwind Css / MySQl",
       description:
         "This real estate web application allows users to publish, search, and explore properties available for sale or rent through an intuitive and modern interface. It features secure user authentication, advanced search and filtering options, and detailed property listings with images and descriptions. The application integrates Google Maps to display property locations and enhance the browsing experience. Built with a React.js frontend styled using Tailwind CSS, and a Node.js backend to handle business logic and data management, this platform delivers a fast, responsive, and scalable real estate solution.",
@@ -114,6 +122,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       title: "Event management",
+      category: "fullstack",
       tech: "Laravel / Reactjs / Talwind Css / MySQl",
       description:
         "This web application is designed for planning, organizing, and managing events efficiently. It allows organizers to create and manage events, handle participant registrations, and track attendance seamlessly. Participants can browse event details, register online, and receive confirmation notifications. Developed using Laravel for the backend and styled with Tailwind CSS for a modern and responsive user interface, this application provides a reliable and user-friendly event management solution.",
@@ -121,6 +130,56 @@ document.addEventListener("DOMContentLoaded", function () {
       videoSrc: "https://github.com/yassineboubkeur/gestion_evenments", 
       altText: "Project 10",
     },
+    {
+      title: "Automated AWS Infrastructure Deployment",
+      category: "devops",
+      tech: "Cloud Computing / CI/CD / Kubernetes / Docker / AWS",
+      description:
+        "An automated cloud infrastructure deployment project that provisions AWS resources using Terraform, configures servers with Ansible, and deploys containerized applications through Docker. GitHub Actions was integrated to create a fully automated CI/CD pipeline, enabling infrastructure provisioning, server configuration, and application deployment on every Git push using Infrastructure as Code (IaC) and DevOps automation practices.",
+      imgSrc: "\\img\\Automated AWS Infrastructure Deployment.jfif",
+      videoSrc: "https://github.com/yassineboubkeur/devops-iac-terraform-ansible", 
+      altText: "Project 11",
+    },
+    {
+      title: "Cloud-Native Application Deployment",
+      category: "devops",
+      tech: "CI/CD / Kubernetes / Docker / AWS / Node.js",
+      description:
+        "A cloud-native application deployment project that demonstrates the complete lifecycle of deploying a containerized Node.js (Express) API. The application was containerized using Docker, orchestrated with Kubernetes (Minikube), and deployed on an AWS EC2 instance. Kubernetes Deployments and Services (NodePort) were configured to expose the application, while AWS Security Groups and SSH Key Pairs ensured secure access, providing hands-on experience with container orchestration and cloud deployment.",
+      imgSrc: "\\img\\Cloud-Native Application Deployment.jfif",
+      videoSrc: "https://github.com/yassineboubkeur/devops-ci-cd-nodejs", 
+      altText: "Project 12",
+    },
+    {
+      title: "Production-Style Microservices Platform",
+      category: "devops",
+      tech: "Cloud Computing / CI/CD / Kubernetes / Docker / Grafaqna / Prometheus / Helm / ArgoCD / GitHub Actions",
+      description:
+        "A production-ready microservices platform built with Kubernetes, Helm, ArgoCD, and GitHub Actions. The platform consists of multiple containerized services with PostgreSQL databases, automated CI/CD and GitOps workflows, canary and rolling deployments, Horizontal Pod Autoscaling (HPA), and monitoring with Prometheus and Grafana. The project demonstrates modern DevOps practices for building scalable, resilient, and highly available cloud-native applications with zero-downtime deployments.",
+      imgSrc: "\\img\\Production-Style Microservices Platform.jfif",
+      videoSrc: "https://github.com/yassineboubkeur/microservices-k8s-platform", 
+      altText: "Project 13",
+    },
+    {
+      title: "Data Professional Survey Analysis Dashboard",
+      category: "data-analyst",
+      tech: "Power BI / Excel",
+      description:
+        "An interactive business intelligence dashboard built using Power BI to visualize survey data from data professionals worldwide. The project involves comprehensive data extraction, cleaning, and transformation using Power Query, followed by advanced data modeling and DAX calculations to drive key performance indicators (KPIs). The dashboard features geographic insights via a treemap, salary trends across various job titles, diversity in programming language adoption, and sentiment analysis regarding work-life balance and salary satisfaction. This solution provides actionable insights into the current landscape of the data industry, demonstrating strong data visualization.",
+      imgSrc: "\\img\\Data Professional Survey Analysis Dashboard.jfif",
+      videoSrc: "", 
+      altText: "Project 14",
+    },
+    {
+      title: "Automated Sales Data ETL and Exploratory Analysis Pipeline",
+      category: "data-analyst",
+      tech: "Python / Pandas / NumPy / Matplotlib / Seaborn / Jupyter Notebook",
+      description:
+        "A robust data processing and exploratory analysis pipeline developed using Python, Pandas, and Matplotlib to analyze multi-month sales transaction data. The project implements an automated ETL (Extract, Transform, Load) workflow that iterates through directory structures to dynamically concatenate and merge numerous .csv files into a unified, comprehensive dataset (over 900,000 rows).",
+      imgSrc: "\\img\\Automated Sales Data ETL and Exploratory Analysis Pipeline.jfif",
+      videoSrc: "", 
+      altText: "Project 15",
+    }
   ];
 
   const projectsContainer = document.querySelector(".all-projects");
@@ -129,14 +188,24 @@ document.addEventListener("DOMContentLoaded", function () {
   const nextButton = document.querySelector(".next");
 
   let currentPage = 1;
+  let currentCategory = "all";
   const projectsPerPage = 4;
 
-  // Function to display projects
+  function getFilteredProjects() {
+    if (currentCategory === "all") return projects;
+    return projects.filter((p) => p.category === currentCategory);
+  }
+
+  function getTotalPages() {
+    return Math.ceil(getFilteredProjects().length / projectsPerPage);
+  }
+
   function displayProjects(page) {
     projectsContainer.innerHTML = "";
+    const filtered = getFilteredProjects();
     const start = (page - 1) * projectsPerPage;
     const end = start + projectsPerPage;
-    const projectsToDisplay = projects.slice(start, end);
+    const projectsToDisplay = filtered.slice(start, end);
 
     projectsToDisplay.forEach((project) => {
       const projectItem = document.createElement("div");
@@ -148,28 +217,36 @@ document.addEventListener("DOMContentLoaded", function () {
           <p>${project.description}</p>
         </div>
         <div class="project-video">
-         <a href="${project.videoSrc}" target="_blank">
+          ${project.videoSrc ? `
+          <a href="${project.videoSrc}" target="_blank">
+            <img src="${project.imgSrc}" alt="${project.altText}" />
+            <span class="video-link">Watch Project</span>
+          </a>` : `
           <img src="${project.imgSrc}" alt="${project.altText}" />
-          <span class="video-link">Watch Project</span>
-         </a>
+          `}
         </div>
       `;
       projectsContainer.appendChild(projectItem);
     });
   }
 
-  // Function to update the active page in the pagination
   function updatePagination() {
+    const totalPages = getTotalPages();
     pages.forEach((page) => {
-      if (parseInt(page.dataset.page) === currentPage) {
-        page.classList.add("active");
+      const pageNum = parseInt(page.dataset.page);
+      if (pageNum <= totalPages) {
+        page.style.display = "inline-block";
+        if (pageNum === currentPage) {
+          page.classList.add("active");
+        } else {
+          page.classList.remove("active");
+        }
       } else {
-        page.classList.remove("active");
+        page.style.display = "none";
       }
     });
   }
 
-  // Add event listeners to pagination buttons
   pages.forEach((page) => {
     page.addEventListener("click", () => {
       currentPage = parseInt(page.dataset.page);
@@ -187,14 +264,26 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   nextButton.addEventListener("click", () => {
-    if (currentPage < pages.length) {
+    const totalPages = getTotalPages();
+    if (currentPage < totalPages) {
       currentPage++;
       displayProjects(currentPage);
       updatePagination();
     }
   });
 
-  // Initial display
+  const categoryButtons = document.querySelectorAll(".category-btn");
+  categoryButtons.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      categoryButtons.forEach((b) => b.classList.remove("active"));
+      btn.classList.add("active");
+      currentCategory = btn.dataset.category;
+      currentPage = 1;
+      displayProjects(currentPage);
+      updatePagination();
+    });
+  });
+
   displayProjects(currentPage);
   updatePagination();
 });
