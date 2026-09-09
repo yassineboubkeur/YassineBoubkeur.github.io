@@ -193,6 +193,16 @@ document.addEventListener("DOMContentLoaded", function () {
         "https://drive.google.com/file/d/15mSOKSHUfrZzQhs0BeUBqQcS0Mum11qR/view?usp=sharing",
       altText: "Project 16",
     },
+    {
+      title: "ShopSphere E-Commerce Platform",
+      category: "fullstack",
+      tech: "Java / Spring Boot / Angular / PostgreSQL / Kafka / Redis / Docker / GitHub Actions / Oracle Cloud",
+      description:
+        "A production-grade microservices-based e-commerce platform built with Spring Boot and Angular. The platform implements JWT-based authentication, Kafka for event-driven communication, Redis for caching, and PostgreSQL databases per service. It is deployed on Oracle Cloud ARM VMs using Docker Compose, with a complete GitHub Actions CI/CD pipeline for automated build, testing, and deployment.",
+      imgSrc: "\\\img\\\ShopSphere E-Commerce Platform.png",
+      videoSrc: "https://drive.google.com/file/d/1ch-I7CW-lipMUQRam1kRcurD1Iy-T_B1/view?usp=sharing",
+      altText: "Project 17",
+    },
   ];
 
   const projectsContainer = document.querySelector(".all-projects");
